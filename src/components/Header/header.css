@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+
+*,*::after, *::before {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    font-family: 'Hammersmith One', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 18vh;
+    position: fixed;
+    width: 100vw;
+    top: 0px;
+    z-index: 2;
+}
+
+    /* Logo */
+    .logo {
+        position: relative;
+        height: 80px;
+        z-index: 2;
+    }
+
+.navbar li {
+    list-style: none;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3rem;
+}
+
+.nav-toggle {
+    cursor: pointer;
+    display: none;
+}
+
+.nav-toggle div {
+    width: 25px;
+    height: 2px;
+    margin: 5px;
+    background: darkgrey;
+    transition: 0.4s ease-in;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        background: rgb(22, 21, 21);
+    }
+
+        /* Logo */
+        .logo {
+           right: 4rem;
+        }
+
+    .nav-toggle {
+        display: block;
+        z-index: 1;
+    }
+
+    .nav-list {
+        position: fixed;
+        top: 18vh;
+        right: 0;
+        width: 50%;
+        height: 81vh;
+        background: rgba(32, 33, 34, .8);
+        flex-direction: column;
+        transform: translateX(100%);
+        transition: 0.5s ease-in;
+        z-index: 1;
+    }
+}
+
+/* Nav Active */
+.nav-active {
+    transform: translateX(0);
+}
+
+/* Toggle Icon Animation */
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-4px, 5px);
+}
+
+.toggle .line2 {
+    opacity: 0;
+}
+
+.toggle .line3 {
+    transform: rotate(45deg) translate(-4px, -5px);
+}
+
+/* Banner */
+.banner-area {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(../../assets/images/aad&w-bg-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 3vw;
+    color: #FCF7F8;
+}
+
+.banner-content {
+    position: relative;
+    left: 110px;
+}
+
+.banner-content h1 {
+    letter-spacing: 2px;
+    animation: animate 2s 1;
+}
+
+.header-home-btn {
+
+}
+
