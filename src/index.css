@@ -1,4 +1,23 @@
-body {
+* {
+  /* All American Color Pallette */
+  --yellow: #fed766;
+  --ltBackground: #fcf7f8;
+  --dkBackground: #202122;
+  --footer: #90c2e7;
+  /* Home Page Our Features Circles & Products */
+  --pink: #ffb6b6;
+  --yellow: #ffce70;
+  --green: #daff8d;
+  --blue: #a7b0ff;
+  --purple: #f199ff;
+  --red: #ff4e63;
+}
+
+/* * {
+  background-color: var(--ltBackground);
+} */
+
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +29,4 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */

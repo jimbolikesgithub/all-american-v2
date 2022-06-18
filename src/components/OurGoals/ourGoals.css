@@ -1,1 +1,29 @@
-/* lc */
+.goals-logo-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.goals-logo-title img {
+  padding: 30px;
+}
+
+.goals-details {
+  text-align: center;
+  padding: 30px 10px;
+}
+
+.goals-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+button {
+  background-color: var(--yellow);
+  border-style: none;
+  border-radius: 10px;
+  padding: 10px;
+}
