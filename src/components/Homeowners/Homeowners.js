@@ -1,12 +1,19 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 import './homeowners.css';
 import pic1 from '../../assets/homeownersPic1.jpg';
 import pic2 from '../../assets/homeownersPic2.jpg';
 import pic3 from '../../assets/homeownersPic3.png';
 
 function Homeowners() {
+  useEffect(() => {
+    // 2 second animtion completeness
+    Aos.init({duration: 2000});
+  }, []);
+  
   return (
-    <section class="homeowners-contractors-container">
+    <section class="homeowners-contractors-container" data-aos="fade-right">
       <div class="container">
         <div class="row">
           <div class="col-12 homeowners-contractors-section">
