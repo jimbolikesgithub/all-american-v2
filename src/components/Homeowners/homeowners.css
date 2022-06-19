@@ -1,53 +1,48 @@
-.homeowners-contractors-container {
-  background-color: var(--dkBackground);
-  padding-top: 30px;
-}
-
-.homeowners-contractors-container div {
-  background-color: var(--dkBackground);
+.home-contract-container {
+  /* background-color: var(--dkBackground); */
+  background: rgb(32, 33, 34);
+  background: linear-gradient(
+    180deg,
+    rgba(32, 33, 34, 1) 54%,
+    rgba(114, 113, 116, 1) 78%,
+    rgba(252, 247, 248, 1) 100%
+  );
   color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
-.homeowners-contractors-container h1 {
-  background-color: var(--dkBackground);
-}
-
-.homeowners-contractors-container p {
-  background-color: var(--dkBackground);
-}
-
-.homeowners-contractors-section {
-  display: flex;
+.home-contract-section {
   align-items: center;
+  padding: 10px;
 }
 
-.homeowners-contractors-1 {
+.home-section {
   text-align: left;
-  /* padding: 50px; */
 }
 
-.homeowners-contractors-2 {
+.contract-section {
   text-align: right;
 }
 
-.homeowners-contractors-pic-1 {
+.home-pic {
   display: flex;
   justify-content: center;
 }
 
-.homeowners-contractors-pic-1 img {
+.home-pic img {
   border-radius: 50%;
   height: 400px;
   width: 400px;
   filter: brightness(70%);
 }
 
-.homeowners-contractors-pic-2 {
+.contract-pic {
   display: flex;
   justify-content: center;
 }
 
-.homeowners-contractors-pic-2 img {
+.contract-pic img {
   border-radius: 50%;
   height: 400px;
   width: 400px;

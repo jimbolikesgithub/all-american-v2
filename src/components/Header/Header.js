@@ -1,50 +1,62 @@
-import React, {useState} from 'react';
-import './header.css'
-import logo from '../../assets/images/test-header.png'
+import React, { useState } from 'react';
+import './header.css';
+import logo from '../../assets/images/test-header.png';
 
 function Header() {
   // state is `active`
   const [active, setActive] = useState('nav-list');
   // state is `toggleIcon`
-  const [toggleIcon, setToggleIcon] = useState("nav-toggle");
+  const [toggleIcon, setToggleIcon] = useState('nav-toggle');
 
   const navToggle = () => {
     active === 'nav-list'
-    ? setActive('nav-list nav-active') 
-    : setActive('nav-list');
+      ? setActive('nav-list nav-active')
+      : setActive('nav-list');
 
     // Toggle Icon
 
-    toggleIcon === 'nav-toggle' 
-    ? setToggleIcon('nav-toggle toggle')
-    : setToggleIcon('nav-toggle');
-  }
+    toggleIcon === 'nav-toggle'
+      ? setToggleIcon('nav-toggle toggle')
+      : setToggleIcon('nav-toggle');
+  };
 
   return (
     <header>
-
       {/* Navigation */}
       <nav class="navbar">
-
-          <a href="#" className="logo-link">
-            <img src={logo} className="logo" alt="All American Doors & Windows logo"></img>
-          </a>
+        <a href="#" className="logo-link">
+          <img
+            src={logo}
+            className="logo"
+            alt="All American Doors & Windows logo"
+          ></img>
+        </a>
 
         <ul className={active}>
           <li className="nav-item">
-            <a href="#" className="nav-link">Home</a>
+            <a href="#" className="nav-link">
+              Home
+            </a>
           </li>
           <li className="nav-item">
-            <a href="#" className="nav-link">About</a>
+            <a href="#" className="nav-link">
+              About
+            </a>
           </li>
           <li className="nav-item">
-            <a href="#" className="nav-link">Products</a>
+            <a href="#" className="nav-link">
+              Products
+            </a>
           </li>
           <li className="nav-item">
-            <a href="#" className="nav-link">Vendors</a>
+            <a href="#" className="nav-link">
+              Vendors
+            </a>
           </li>
           <li className="nav-item">
-            <a href="#" className="nav-link">Contact</a>
+            <a href="#" className="nav-link">
+              Contact
+            </a>
           </li>
         </ul>
 
@@ -60,11 +72,13 @@ function Header() {
         <div className="banner-content">
           <h1>LOCAL. TRUSTED.</h1>
           <h1>& ALL AMERICAN.</h1>
-          <a href="#" className="header-home-btn">Click pls</a>
+          <a href="#" className="header-home-btn">
+            Click pls
+          </a>
         </div>
       </div>
 
-      <div>
+      {/* <div>
         <p>penis</p>
       </div>
       <div>
@@ -81,8 +95,7 @@ function Header() {
       </div>
       <div>
         <p>penis</p>
-      </div>
-
+      </div> */}
     </header>
   );
 }
