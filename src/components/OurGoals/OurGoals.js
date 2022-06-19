@@ -1,10 +1,17 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 import './ourGoals.css';
 import worker from '../../assets/images/ourGoalsWorker.png';
 
 function OurGoals() {
+  useEffect(() => {
+    // 2 second animtion completeness
+    Aos.init({ duration: 2000 });
+  }, []);
+
   return (
-    <section className="goals-container-all">
+    <section className="goals-container-all" data-aos="fade-up">
       <div className="container">
         <div className="row goals-container">
           <div className="col-12 goals-logo-title">

@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 import './features.css';
 import local from '../../assets/images/local.png';
 import service from '../../assets/images/service.png';
@@ -8,8 +10,13 @@ import customizable from '../../assets/images/customizable.png';
 import affordable from '../../assets/images/affordable.png';
 
 function Features() {
+  useEffect(() => {
+    // 2 second animtion completeness
+    Aos.init({ duration: 2000 });
+  }, []);
+
   return (
-    <section className="features-container-all">
+    <section className="features-container-all" data-aos="fade-up">
       <div className="container">
         <div className="features-container">
           <h1>OUR FEATURES</h1>
