@@ -1,5 +1,6 @@
 .goals-container-all {
   background-color: var(--ltBackground);
+  width: 100%;
 }
 
 .goals-container {

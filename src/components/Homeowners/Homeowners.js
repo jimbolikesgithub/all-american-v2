@@ -12,6 +12,8 @@ function Homeowners() {
     Aos.init({ duration: 2000 });
   }, []);
 
+  // make the bubbles disappear at a certain size / media query -__-
+
   return (
     <section className="home-contract-container" data-aos="fade-right">
       <div className="container">
