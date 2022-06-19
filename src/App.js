@@ -1,18 +1,19 @@
 import React from 'react';
-import OurGoals from './components/OurGoals/OurGoals';
-import Homeowners from './components/Homeowners/Homeowners';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 import Header from './components/Header/Header';
-import Features from './components/Features/Features';
+import Home from './pages/Home';
 
 function App() {
   return (
-    <div>
-      <Header />
-      {/* for styling purposes */}
-      <OurGoals />
-      <Homeowners />
-      <Features />
-    </div>
+    <Router>
+      <div>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
