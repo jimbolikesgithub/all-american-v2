@@ -7,19 +7,19 @@ function Header() {
   // state is `active`
   const [active, setActive] = useState('nav-list');
   // state is `toggleIcon`
-  const [toggleIcon, setToggleIcon] = useState("nav-toggle");
+  const [toggleIcon, setToggleIcon] = useState('nav-toggle');
 
   const navToggle = () => {
     active === 'nav-list'
-    ? setActive('nav-list nav-active') 
-    : setActive('nav-list');
+      ? setActive('nav-list nav-active')
+      : setActive('nav-list');
 
     // Toggle Icon
 
-    toggleIcon === 'nav-toggle' 
-    ? setToggleIcon('nav-toggle toggle')
-    : setToggleIcon('nav-toggle');
-  }
+    toggleIcon === 'nav-toggle'
+      ? setToggleIcon('nav-toggle toggle')
+      : setToggleIcon('nav-toggle');
+  };
 
   // Y-axis Header Scroll Animation
   // state is `navbar`
@@ -39,7 +39,6 @@ function Header() {
 
   return (
     <header>
-
       {/* Navigation */}
       <nav className={navbar ? 'navbar active' : 'navbar'}>
 
@@ -49,19 +48,29 @@ function Header() {
 
         <ul className={active}>
           <li className="nav-item">
-            <a href="#" className="nav-link">Home</a>
+            <a href="#" className="nav-link">
+              Home
+            </a>
           </li>
           <li className="nav-item">
-            <a href="#" className="nav-link">About</a>
+            <a href="#" className="nav-link">
+              About
+            </a>
           </li>
           <li className="nav-item">
-            <a href="#" className="nav-link">Products</a>
+            <a href="#" className="nav-link">
+              Products
+            </a>
           </li>
           <li className="nav-item">
-            <a href="#" className="nav-link">Vendors</a>
+            <a href="#" className="nav-link">
+              Vendors
+            </a>
           </li>
           <li className="nav-item">
-            <a href="#" className="nav-link">Contact</a>
+            <a href="#" className="nav-link">
+              Contact
+            </a>
           </li>
         </ul>
 

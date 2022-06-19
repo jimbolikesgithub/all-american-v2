@@ -1,0 +1,20 @@
+.features-container-all {
+  background-color: var(--ltBackground);
+}
+
+.features-container {
+  text-align: center;
+  padding: 30px;
+}
+
+.icons-container {
+  text-align: center;
+}
+
+.icons-container img {
+  padding: 20px;
+}
+
+.icons-container p {
+  font-size: 20px;
+}
