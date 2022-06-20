@@ -19,7 +19,7 @@ body {
 
 /* Header */
 header {
-    font-family: 'Hammersmith One', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-family: 'Hammersmith One', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 /* Navbar */
@@ -28,7 +28,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 18vh;
+    height: 111px;
     position: fixed;
     width: 100vw;
     top: 0px;
@@ -129,7 +129,7 @@ header {
 
     .nav-list {
         position: fixed;
-        top: 18vh;
+        top: 110px;
         right: 0;
         width: 50%;
         height: 82vh;
