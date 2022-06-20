@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+
 * {
   /* All American Color Pallette */
   --yellow: #fed766;
@@ -11,6 +13,9 @@
   --blue: #a7b0ff;
   --purple: #f199ff;
   --red: #ff4e63;
+
+  /* All American Font */
+  font-family: 'Hammersmith One', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 /* * {
