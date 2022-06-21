@@ -1,7 +1,7 @@
 import React from 'react';
-import OurGoals from '../components/OurGoals/OurGoals';
-import Homeowners from '../components/Homeowners/Homeowners';
-import Features from '../components/Features/Features';
+import OurGoals from '../components/OurGoals (Home)/OurGoals';
+import Homeowners from '../components/Homeowners (Home)/Homeowners';
+import Features from '../components/Features (Home)/Features';
 import Footer from '../components/Footer/Footer';
 
 const Home = () => {
