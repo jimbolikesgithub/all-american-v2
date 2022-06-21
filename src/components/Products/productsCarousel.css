@@ -1,0 +1,11 @@
+.product-icon-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px;
+  background-color: var(--yellow);
+}
+
+.carousel-container {
+  align-items: center;
+  justify-content: center;
+}
