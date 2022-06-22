@@ -37,13 +37,13 @@ function Hardware() {
         </div>
       </div>
 
-      <div>
+      <div className="carousel-details-container">
         <h1>HARDWARE</h1>
-        <h5>
+        <h4>
           "Missing some necessary handles for your doors? How about some locks
           for your security? If so, be sure to check out some of our best
           recommended hardware."
-        </h5>
+        </h4>
         <p>
           Entry Sets · Interior Locks · Interior Knobs and Hinges · Decorative
           Plate Locks · Pocket Door Mortise Locks · Flush/Door Pulls · Barn Door

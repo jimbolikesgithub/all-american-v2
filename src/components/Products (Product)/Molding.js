@@ -37,13 +37,13 @@ function Molding() {
         </div>
       </div>
 
-      <div>
+      <div className="carousel-details-container">
         <h1>MOLDING</h1>
-        <h5>
+        <h4>
           "Replacing a piece of molding? Decided to decorate your entire home?
           We are your local source, friendly to the basics for the contractors,
           and the MDF's for the decorators."
-        </h5>
+        </h4>
         <p>
           Shiplap · Chair Rail · Baseboards · Casing · Crown Molding · Waives
           Coating · Panel Cap · Stool · Body Guard · S4S · Flex Molding · Faux

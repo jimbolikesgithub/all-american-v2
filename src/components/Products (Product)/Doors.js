@@ -8,7 +8,7 @@ import productIcon3 from '../../assets/images/productIcon3.png';
 
 function Doors() {
   return (
-    <section>
+    <section className="product-container">
       <div className="container carousel-container">
         <div className="row">
           <Carousel>
@@ -37,13 +37,13 @@ function Doors() {
         </div>
       </div>
 
-      <div>
+      <div className="carousel-details-container">
         <h1>DOORS</h1>
-        <h5>
+        <h4>
           "Whether you need a new screen door, grand entry door, or french doors
           that opens onto your patio, All American Doors & Windows has
           everything you’re looking for in many different materials."
-        </h5>
+        </h4>
         <p>
           Entry Doors · Interior Doors · Slider Doors · French Doors · Barn
           Doors · Door Frames · Acoustic Control Doors · Shower Enclosures ·

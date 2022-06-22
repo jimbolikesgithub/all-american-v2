@@ -1,0 +1,29 @@
+.product-icon-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px;
+  background-color: var(--yellow);
+}
+
+.carousel-container {
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-details-container h1 {
+  text-align: center;
+  padding: 10px;
+  margin: 0rem 10rem 0rem;
+}
+
+.carousel-details-container h4 {
+  text-align: center;
+  padding: 10px;
+  margin: 0rem 10rem 0rem;
+}
+
+.carousel-details-container p {
+  text-align: center;
+  padding: 10px;
+  margin: 0rem 10rem 0rem;
+}
