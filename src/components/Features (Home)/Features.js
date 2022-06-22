@@ -11,7 +11,7 @@ import affordable from '../../assets/images/affordable.png';
 
 function Features() {
   useEffect(() => {
-    // 2 second animtion completeness
+    // 2 second animation completeness
     Aos.init({ duration: 2000 });
   }, []);
 

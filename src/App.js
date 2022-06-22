@@ -5,6 +5,9 @@ import Header from './components/Header/Header';
 import Home from './pages/Home';
 import Vendors from './components/Vendors/Vendors';
 import Products from './pages/Products';
+import Footer from './components/Footer/Footer';
+
+import Doors from './components/Products/Doors';
 
 function App() {
   return (
@@ -13,12 +16,11 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          {/* <Route path="/vendors" element={<Vendors />} /> */}
+          <Route path="/vendors" element={<Vendors />} />
+          <Route path="/products" element={<Products />} />
         </Routes>
 
-        {/* for styling */}
-        <Vendors />
-        <Products />
+        <Footer />
       </div>
     </Router>
   );

@@ -8,7 +8,7 @@ import pic3 from '../../assets/images/homeownersPic3.png';
 
 function Homeowners() {
   useEffect(() => {
-    // 2 second animtion completeness
+    // 2 second animation completeness
     Aos.init({ duration: 2000 });
   }, []);
 

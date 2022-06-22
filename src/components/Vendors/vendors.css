@@ -8,6 +8,7 @@
   width: 100%;
 }
 
+/* TODO: including padding */
 .vendors-container p {
-  font-size: 30px;
+  font-size: 2vw;
 }

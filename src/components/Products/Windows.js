@@ -6,7 +6,7 @@ import productIcon1 from '../../assets/images/productIcon1.png';
 import productIcon2 from '../../assets/images/productIcon2.png';
 import productIcon3 from '../../assets/images/productIcon3.png';
 
-function Doors() {
+function Windows() {
   return (
     <section>
       <div className="container carousel-container">
@@ -38,25 +38,24 @@ function Doors() {
       </div>
 
       <div>
-        <h1>DOORS</h1>
+        <h1>WINDOWS</h1>
         <h5>
-          "Whether you need a new screen door, grand entry door, or french doors
-          that opens onto your patio, All American Doors & Windows has
-          everything you’re looking for in many different materials."
+          "Whether it be energy efficient windows, a skylight for your newly
+          remodeled kitchen, or a bay window to overlook your garden, we are
+          certain to have it all, prepared just for you."
         </h5>
         <p>
-          Entry Doors · Interior Doors · Slider Doors · French Doors · Barn
-          Doors · Door Frames · Acoustic Control Doors · Shower Enclosures ·
-          Wardrobe Doors · Mirrored Doors · Clear View Screen Doors · Pantry
-          Doors · Accordion Doors
+          Horizontal Slider · Single Hung · Double Hung · Awning · Casement ·
+          Radius · Bay & Bow Windows · Gardenaire · Picture Windows · Skylight ·
+          Acrylic Blocks · Full, Half & Quarter Circle Windows
         </p>
         <p>
-          Wood · Vinyl · Smooth · Aluminum · Steel · Fiberglass · MDF · Tempered
-          Glass · Etched Glass · and much more
+          Wood · Vinyl · Wood · Cross Reed · Matelux · Rain · P516 · and much
+          more
         </p>
       </div>
     </section>
   );
 }
 
-export default Doors;
+export default Windows;

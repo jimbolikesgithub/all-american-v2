@@ -6,7 +6,7 @@ import productIcon1 from '../../assets/images/productIcon1.png';
 import productIcon2 from '../../assets/images/productIcon2.png';
 import productIcon3 from '../../assets/images/productIcon3.png';
 
-function Doors() {
+function Hardware() {
   return (
     <section>
       <div className="container carousel-container">
@@ -38,25 +38,25 @@ function Doors() {
       </div>
 
       <div>
-        <h1>DOORS</h1>
+        <h1>HARDWARE</h1>
         <h5>
-          "Whether you need a new screen door, grand entry door, or french doors
-          that opens onto your patio, All American Doors & Windows has
-          everything you’re looking for in many different materials."
+          "Missing some necessary handles for your doors? How about some locks
+          for your security? If so, be sure to check out some of our best
+          recommended hardware."
         </h5>
         <p>
-          Entry Doors · Interior Doors · Slider Doors · French Doors · Barn
-          Doors · Door Frames · Acoustic Control Doors · Shower Enclosures ·
-          Wardrobe Doors · Mirrored Doors · Clear View Screen Doors · Pantry
-          Doors · Accordion Doors
+          Entry Sets · Interior Locks · Interior Knobs and Hinges · Decorative
+          Plate Locks · Pocket Door Mortise Locks · Flush/Door Pulls · Barn Door
+          Accessories · Deadbolts, Pulls and Hinges · Lever Set · Electronic
+          Keypad
         </p>
         <p>
-          Wood · Vinyl · Smooth · Aluminum · Steel · Fiberglass · MDF · Tempered
-          Glass · Etched Glass · and much more
+          Wood · Vinyl · Smooth · Fiberglass · Brass · Steel · Bronze · and much
+          more
         </p>
       </div>
     </section>
   );
 }
 
-export default Doors;
+export default Hardware;

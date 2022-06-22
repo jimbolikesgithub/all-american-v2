@@ -1,58 +1,40 @@
-import React, { useEffect } from 'react';
-import Aos from 'aos';
-import { Carousel } from 'react-bootstrap';
+import React, { useState } from 'react';
+import ProductsNav from '../components/Products/ProductsNav';
+import Doors from '../components/Products/Doors';
+import Windows from '../components/Products/Windows';
+import Molding from '../components/Products/Molding';
+import Hardware from '../components/Products/Hardware';
+import Miscellaneous from '../components/Products/Miscellaneous';
 
-import productIcon1 from '../assets/images/productIcon1.png';
-import productIcon2 from '../assets/images/productIcon2.png';
-import productIcon3 from '../assets/images/productIcon3.png';
-import productIcon4 from '../assets/images/productIcon4.png';
-import productIcon5 from '../assets/images/productIcon5.png';
+function Products() {
+  const [currentSection, setCurrentSection] = useState('Doors');
 
-function Products({ currentSection, handleSectionChange }) {
+  const renderSection = () => {
+    if (currentSection === 'Doors') {
+      return <Doors />;
+    }
+    if (currentSection === 'Windows') {
+      return <Windows />;
+    }
+    if (currentSection === 'Molding') {
+      return <Molding />;
+    }
+    if (currentSection === 'Hardware') {
+      return <Hardware />;
+    }
+    return <Miscellaneous />;
+  };
+
+  const handleSectionChange = (section) => setCurrentSection(section);
+
   return (
-    <section className="products-container">
-      <div className="product-icon-container">
-        <ul>
-          <li>
-            <a href="#Doors" onClick={() => handleSectionChange('Doors')}>
-              <img src={productIcon1} alt="product icon 1"></img>
-            </a>
-          </li>
-          <li>
-            <a href="#Windows" onClick={() => handleSectionChange('Windows')}>
-              <img src={productIcon2} alt="product icon 1"></img>
-            </a>
-          </li>
-          <li>
-            <a href="#Molding" onClick={() => handleSectionChange('Molding')}>
-              <img src={productIcon3} alt="product icon 1"></img>
-            </a>
-          </li>
-          <li>
-            <a href="#Hardware" onClick={() => handleSectionChange('Hardware')}>
-              <img src={productIcon4} alt="product icon 1"></img>
-            </a>
-          </li>
-          <li>
-            <a
-              href="#Miscellaneous"
-              onClick={() => handleSectionChange('Miscellaneous')}
-            >
-              <img src={productIcon5} alt="product icon 1"></img>
-            </a>
-          </li>
-        </ul>
-        {/* <img src={productIcon1} alt="product icon 1"></img>
-
-        <img src={productIcon2} alt="product icon 2"></img>
-
-        <img src={productIcon3} alt="product icon 3"></img>
-
-        <img src={productIcon4} alt="product icon 4"></img>
-
-        <img src={productIcon5} alt="product icon 5"></img> */}
-      </div>
-    </section>
+    <div>
+      <ProductsNav
+        currentSection={currentSection}
+        handleSectionChange={handleSectionChange}
+      />
+      {renderSection()}
+    </div>
   );
 }
 
