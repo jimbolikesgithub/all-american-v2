@@ -4,6 +4,8 @@ import Homeowners from '../components/Homeowners (Home)/Homeowners';
 import Features from '../components/Features (Home)/Features';
 import Footer from '../components/Footer/Footer';
 
+import Develop from '../components/Develop (About)/Develop';
+
 const Home = () => {
   return (
     <div>
@@ -11,6 +13,7 @@ const Home = () => {
       <Homeowners />
       <Features />
       <Footer />
+      <Develop />
     </div>
   );
 };
