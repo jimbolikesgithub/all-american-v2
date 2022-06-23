@@ -1,12 +1,5 @@
 .home-contract-container {
-  /* background-color: var(--dkBackground); */
-  background: rgb(32, 33, 34);
-  background: linear-gradient(
-    180deg,
-    rgba(32, 33, 34, 1) 54%,
-    rgba(114, 113, 116, 1) 78%,
-    rgba(252, 247, 248, 1) 100%
-  );
+  background-color: var(--dkBackground);
   color: white;
   padding-top: 30px;
   padding-bottom: 30px;
