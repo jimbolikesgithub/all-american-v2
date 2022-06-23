@@ -7,7 +7,7 @@ import productsHardware1 from '../../assets/images/products-hardware-1.jpg';
 function Hardware() {
   return (
     <section>
-      <div className="container carousel-container">
+      <div className="container products-carousel-container">
         <div className="row">
           <Carousel>
             <Carousel.Item>

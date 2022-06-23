@@ -7,7 +7,7 @@ import productsMolding1 from '../../assets/images/products-molding-1.jpg';
 function Molding() {
   return (
     <section>
-      <div className="container carousel-container">
+      <div className="container products-carousel-container">
         <div className="row">
           <Carousel>
             <Carousel.Item>

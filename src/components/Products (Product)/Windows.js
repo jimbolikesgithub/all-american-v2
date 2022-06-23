@@ -7,7 +7,7 @@ import productsWindows1 from '../../assets/images/products-windows-1.jpg';
 function Windows() {
   return (
     <section>
-      <div className="container carousel-container">
+      <div className="container products-carousel-container">
         <div className="row">
           <Carousel>
             <Carousel.Item>

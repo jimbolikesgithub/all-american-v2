@@ -7,7 +7,7 @@ import productsMiscellaneous1 from '../../assets/images/products-miscellaneous-1
 function Miscellaneous() {
   return (
     <section>
-      <div className="container carousel-container">
+      <div className="container products-carousel-container">
         <div className="row">
           <Carousel>
             <Carousel.Item>

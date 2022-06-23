@@ -9,8 +9,8 @@ import productsDoors3 from '../../assets/images/products-molding-1.jpg';
 
 function Doors() {
   return (
-    <section className="product-container">
-      <div className="container carousel-container">
+    <section>
+      <div className="container products-carousel-container">
         <div className="row">
           <Carousel>
             <Carousel.Item>
