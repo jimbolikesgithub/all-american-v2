@@ -7,10 +7,10 @@ function Vendors() {
   return (
     <section>
       <div className="vendors-container">
-        <p>
+        <h3>
           We carry the most popular brands, so you can be sure you’ll have the
           highest quality at the best prices, including:
-        </p>
+        </h3>
         <img src={vendorsPic} alt="vendor logos"></img>
       </div>
     </section>

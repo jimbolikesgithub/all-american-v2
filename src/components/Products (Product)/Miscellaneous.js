@@ -2,9 +2,7 @@ import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import './products.css';
 
-import productIcon1 from '../../assets/images/productIcon1.png';
-import productIcon2 from '../../assets/images/productIcon2.png';
-import productIcon3 from '../../assets/images/productIcon3.png';
+import productsMiscellaneous1 from '../../assets/images/products-miscellaneous-1.jpg';
 
 function Miscellaneous() {
   return (
@@ -15,21 +13,21 @@ function Miscellaneous() {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src={productIcon1}
+                src={productsMiscellaneous1}
                 alt="First slide"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src={productIcon2}
+                src={productsMiscellaneous1}
                 alt="Second slide"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src={productIcon3}
+                src={productsMiscellaneous1}
                 alt="Third slide"
               />
             </Carousel.Item>

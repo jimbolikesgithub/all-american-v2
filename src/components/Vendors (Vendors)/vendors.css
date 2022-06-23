@@ -1,14 +1,9 @@
 .vendors-container {
   text-align: center;
-  padding: 30px;
+  padding: 3%;
   background-color: var(--ltBackground);
 }
 
 .vendors-container img {
   width: 100%;
-}
-
-/* TODO: including padding */
-.vendors-container p {
-  font-size: 2vw;
 }

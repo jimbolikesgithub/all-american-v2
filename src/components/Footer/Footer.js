@@ -36,27 +36,27 @@ function Function() {
               PAGES
             </h5>
             <p>
-              <a href="#" className="footer-link">
+              <a href="/" className="footer-link">
                 Home
               </a>
             </p>
             <p>
-              <a href="#" className="footer-link">
+              <a href="/about" className="footer-link">
                 About
               </a>
             </p>
             <p>
-              <a href="#" className="footer-link">
+              <a href="/products" className="footer-link">
                 Products
               </a>
             </p>
             <p>
-              <a href="#" className="footer-link">
+              <a href="/vendors" className="footer-link">
                 Vendors
               </a>
             </p>
             <p>
-              <a href="#" className="footer-link">
+              <a href="/contact" className="footer-link">
                 Contact
               </a>
             </p>

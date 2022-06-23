@@ -18,7 +18,7 @@ function Homeowners() {
     <section className="home-contract-container" data-aos="fade-right">
       <div className="container">
         <div className="row home-contract-section">
-          <div className="col-xs-12 col-xl-6 home-section">
+          <div className="col-lg-6 col-xl-6 home-section">
             <h1>HOMEOWNERS</h1>
             <p>
               Whether you are a do-it-yourself type homeowner, or you prefer to
@@ -36,17 +36,17 @@ function Homeowners() {
             </p>
           </div>
 
-          <div className="col-xs-12 col-xl-6 home-pic">
+          <div className="col-lg-6 col-xl-6 d-none d-lg-block home-pic">
             <img src={pic1} alt="person working on door"></img>
           </div>
         </div>
 
         <div className="row home-contract-section">
-          <div className="col-xs-12 col-xl-6 contract-pic">
+          <div className="col-lg-6 col-xl-6 d-none d-lg-block contract-pic">
             <img src={pic2} alt="office"></img>
           </div>
 
-          <div className="col-xs-12 col-xl-6 contract-section">
+          <div className="col-lg-6 col-xl-6 contract-section">
             <h1>CONTRACTORS</h1>
             <p>
               As a contractor, you can be certain that you are working with the

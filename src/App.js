@@ -5,6 +5,7 @@ import Header from './components/Header/Header';
 import Home from './pages/Home';
 import Vendors from './components/Vendors (Vendors)/Vendors';
 import Products from './pages/Products';
+import WrongPage from './pages/WrongPage';
 import Footer from './components/Footer/Footer';
 
 function App() {
@@ -16,6 +17,9 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/vendors" element={<Vendors />} />
           <Route path="/products" element={<Products />} />
+
+          {/* path if URL is wrong */}
+          <Route path="*" element={<WrongPage />} />
         </Routes>
 
         <Footer />

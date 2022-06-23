@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import './header.css'
-import logo from '../../assets/images/test-header.png'
+import './header.css';
+import logo from '../../assets/images/test-header.png';
 
 function Header() {
   // Menu Function
@@ -29,46 +29,49 @@ function Header() {
     console.log(window.scrollY);
 
     if (window.scrollY >= 200) {
-      setNavbar(true)
+      setNavbar(true);
     } else {
       setNavbar(false);
     }
   };
 
-  window.addEventListener('scroll', changeBackground)
+  window.addEventListener('scroll', changeBackground);
 
   return (
     <header>
       {/* Navigation */}
       <nav className={navbar ? 'navbar active' : 'navbar'}>
-
-          <a href="#" className="logo-link">
-            <img src={logo} className="logo" alt="All American Doors & Windows logo"></img>
-          </a>
+        <a href="/" className="logo-link">
+          <img
+            src={logo}
+            className="logo"
+            alt="All American Doors & Window logo"
+          ></img>
+        </a>
 
         <ul className={active}>
           <li className="nav-item">
-            <a href="#" className="nav-link">
+            <a href="/" className="nav-link">
               Home
             </a>
           </li>
           <li className="nav-item">
-            <a href="#" className="nav-link">
+            <a href="/about" className="nav-link">
               About
             </a>
           </li>
           <li className="nav-item">
-            <a href="#" className="nav-link">
+            <a href="/products" className="nav-link">
               Products
             </a>
           </li>
           <li className="nav-item">
-            <a href="#" className="nav-link">
+            <a href="/vendors" className="nav-link">
               Vendors
             </a>
           </li>
           <li className="nav-item">
-            <a href="#" className="nav-link">
+            <a href="/contact" className="nav-link">
               Contact
             </a>
           </li>
@@ -87,9 +90,10 @@ function Header() {
           <h1 className="header-top-txt">LOCAL. TRUSTED.</h1>
           <h1>& ALL AMERICAN.</h1>
         </div>
-        <a href="#" className="header-home-btn">Check it out</a>
+        <a href="#" className="header-home-btn">
+          Check it out
+        </a>
       </div>
-
     </header>
   );
 }
