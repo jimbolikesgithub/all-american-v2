@@ -1,0 +1,9 @@
+.vendors-container {
+  text-align: center;
+  padding: 3%;
+  background-color: var(--ltBackground);
+}
+
+.vendors-container img {
+  width: 100%;
+}

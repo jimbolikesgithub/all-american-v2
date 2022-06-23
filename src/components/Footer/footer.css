@@ -1,38 +1,38 @@
 footer {
-    background: rgb(22, 21, 21);
+  background: rgb(22, 21, 21);
 }
 
 .footer-header {
-    color: #fed766;
+  color: #fed766;
 }
 
 /* Copyright */
 .copyright-section {
-    padding-top: 10px;
+  padding-top: 10px;
 }
 
 .footer-copyright {
-    color: #FCF7F8;
+  color: #fcf7f8;
 }
 
 .footer-copyright-span {
-    color: #fed766;
+  color: #fed766;
 }
 
 .footer-link {
-    text-decoration: none;
-    color: #FCF7F8;
-    transition: 0.4s ease-in;
+  text-decoration: none;
+  color: #fcf7f8;
+  transition: 0.4s ease-in;
 }
 
 .footer-link:hover {
-    color: rgb(22, 21, 21);
-    background-color: #FCF7F8;
-    padding: 10px;
-    border-radius: 5px;
-    transition: 0.2s ease-in;
+  color: rgb(22, 21, 21);
+  background-color: #fcf7f8;
+  padding: 10px;
+  border-radius: 5px;
+  transition: 0.2s ease-in;
 }
 
 .footer-icon {
-    color: #FCF7F8;
+  color: #fcf7f8;
 }

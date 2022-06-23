@@ -6,7 +6,7 @@ import worker from '../../assets/images/ourGoalsWorker.png';
 
 function OurGoals() {
   useEffect(() => {
-    // 2 second animtion completeness
+    // 2 second animation completeness
     Aos.init({ duration: 2000 });
   }, []);
 

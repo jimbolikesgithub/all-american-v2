@@ -1,14 +1,14 @@
 import React from 'react';
 import Develop from '../components/Develop (About)/Develop';
-import Footer from '../components/Footer/Footer';
+import Showroom from '../components/Showroom (About)/Showroom';
 
-const Home = () => {
+const About = () => {
   return (
     <div>
       <Develop />
-      <Footer />
+      <Showroom />
     </div>
   );
 };
 
-export default Home;
+export default About;

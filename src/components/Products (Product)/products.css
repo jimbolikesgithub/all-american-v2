@@ -1,0 +1,51 @@
+/* NAV BAR + ICONS*/
+.nav-tabs .nav-item .nav-link {
+  color: black;
+}
+
+.product-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--yellow);
+}
+
+.product-icon-container li {
+  padding: 20px;
+  text-align: center;
+}
+
+/* PRODUCTS CAROUSEL + DETAILS */
+.products-carousel-container {
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-details-container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.carousel-details-container h1 {
+  text-align: center;
+}
+
+.carousel-details-container h4 {
+  text-align: center;
+  padding: 10px;
+  margin: 0% 10% 0%;
+}
+
+.carousel-details-container p {
+  text-align: center;
+  padding: 10px;
+  margin: 0% 10% 0%;
+}
+
+/* Media Query */
+@media screen and (max-width: 1024px) {
+  .nav-item img {
+    display: none;
+  }
+}
