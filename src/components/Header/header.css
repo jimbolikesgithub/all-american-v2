@@ -77,8 +77,15 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    gap: 3rem;
+    gap: 2rem;
 }
+
+@media screen and (max-width: 834px) {
+    .nav-list {
+        gap: 1rem;
+    }
+}
+
 
 .nav-toggle {
     cursor: pointer;

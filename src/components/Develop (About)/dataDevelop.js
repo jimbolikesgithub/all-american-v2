@@ -9,12 +9,12 @@ const dataDevelop = [
     },
     {
         id: uuidv4(),
-        title: "Lorem ipsum",
+        title: "Bruh moment",
         subTitle: "Lorem"
     },
     {
         id: uuidv4(),
-        title: "Lorem ipsum",
+        title: "Hey quandale dingle here",
         subTitle: "Lorem"
     },
 ];
