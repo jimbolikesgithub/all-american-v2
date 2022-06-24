@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 * {
   /* All American Color Pallette */
@@ -18,7 +21,3 @@
   font-family: 'Hammersmith One', Impact, Haettenschweiler, 'Arial Narrow Bold',
     sans-serif;
 }
-
-/* * {
-  background-color: var(--ltBackground);
-} */
