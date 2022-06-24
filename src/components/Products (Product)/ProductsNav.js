@@ -10,7 +10,7 @@ import productsIcon5 from '../../assets/images/products-icon-5.png';
 
 function ProductsNav({ currentSection, handleSectionChange }) {
   return (
-    <section className="products-container">
+    <section>
       <div className="product-icon-container">
         <ul className="nav nav-tabs justify-content-center">
           <li className="nav-item">

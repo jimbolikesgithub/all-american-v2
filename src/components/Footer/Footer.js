@@ -84,7 +84,7 @@ function Function() {
           <div className="col-md-5 col-lg-4">
             <ul className="list-unstyled list-inline">
               <li className="list-inline-item">
-                <a href="#" className="btn-floating btn-sm">
+                <a href="/" className="btn-floating btn-sm">
                   <FontAwesomeIcon
                     icon={faHome}
                     className="footer-icon"
@@ -92,7 +92,7 @@ function Function() {
                 </a>
               </li>
               <li className="list-inline-item">
-                <a href="#" className="btn-floating btn-sm">
+                <a href="/about" className="btn-floating btn-sm">
                   <FontAwesomeIcon
                     icon={faUserAlt}
                     className="footer-icon"
@@ -100,7 +100,7 @@ function Function() {
                 </a>
               </li>
               <li className="list-inline-item">
-                <a href="#" className="btn-floating btn-sm">
+                <a href="/products" className="btn-floating btn-sm">
                   <FontAwesomeIcon
                     icon={faToolbox}
                     className="footer-icon"
@@ -108,7 +108,7 @@ function Function() {
                 </a>
               </li>
               <li className="list-inline-item">
-                <a href="#" className="btn-floating btn-sm">
+                <a href="/vendors" className="btn-floating btn-sm">
                   <FontAwesomeIcon
                     icon={faBoxOpen}
                     className="footer-icon"
@@ -116,7 +116,7 @@ function Function() {
                 </a>
               </li>
               <li className="list-inline-item">
-                <a href="#" className="btn-floating btn-sm">
+                <a href="/contact" className="btn-floating btn-sm">
                   <FontAwesomeIcon
                     icon={faEnvelope}
                     className="footer-icon"

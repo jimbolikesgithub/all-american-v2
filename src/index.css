@@ -3,7 +3,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 * {
   /* All American Color Pallette */
   --yellow: #fed766;
@@ -22,7 +21,3 @@
   font-family: 'Hammersmith One', Impact, Haettenschweiler, 'Arial Narrow Bold',
     sans-serif;
 }
-
-/* * {
-  background-color: var(--ltBackground);
-} */

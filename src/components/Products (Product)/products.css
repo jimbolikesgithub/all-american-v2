@@ -1,4 +1,4 @@
-/* NAV BAR + ICONS*/
+/* NAV BAR + ICONS ON PRODUCTSNAV.JS*/
 .nav-tabs .nav-item .nav-link {
   color: black;
 }
@@ -15,35 +15,47 @@
   text-align: center;
 }
 
-/* PRODUCTS CAROUSEL + DETAILS */
-.products-carousel-container {
+/* PRODUCTS IMAGE + DETAILS */
+.products-container-all {
+  background-color: var(--ltBackground);
+}
+
+.products-container {
+  padding: 30px;
   align-items: center;
+}
+
+.products-image-container {
+  display: flex;
   justify-content: center;
+  align-items: center;
 }
 
-.carousel-details-container {
-  padding-top: 30px;
-  padding-bottom: 30px;
+.products-image-container img {
+  height: 100%;
+  width: 100%;
+}
+
+.products-details-container {
+  text-align: left;
+}
+
+.products-details-container h1 {
   text-align: center;
 }
 
-.carousel-details-container h1 {
-  text-align: center;
-}
-
-.carousel-details-container h4 {
-  text-align: center;
+.products-details-container h5 {
+  font-style: italic;
   padding: 10px;
-  margin: 0% 10% 0%;
 }
 
-.carousel-details-container p {
-  text-align: center;
+.products-details-container p {
   padding: 10px;
-  margin: 0% 10% 0%;
 }
 
-/* Media Query */
+/* MEDIA QUERY */
+
+/* FOR NAV BAR */
 @media screen and (max-width: 1024px) {
   .nav-item img {
     display: none;
