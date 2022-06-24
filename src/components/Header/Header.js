@@ -90,7 +90,7 @@ function Header() {
           <h1 className="header-top-txt">LOCAL. TRUSTED.</h1>
           <h1>& ALL AMERICAN.</h1>
         </div>
-        <a href="#" className="header-home-btn">
+        <a href="/products" className="header-home-btn">
           Check it out
         </a>
       </div>

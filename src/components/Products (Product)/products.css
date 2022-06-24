@@ -1,4 +1,4 @@
-/* NAV BAR + ICONS*/
+/* NAV BAR + ICONS ON PRODUCTSNAV.JS*/
 .nav-tabs .nav-item .nav-link {
   color: black;
 }
@@ -16,34 +16,34 @@
 }
 
 /* PRODUCTS CAROUSEL + DETAILS */
-.products-carousel-container {
-  align-items: center;
+.products-container {
+  background-color: aquamarine;
+  width: 100%;
+}
+
+.products-image-container {
+  display: flex;
   justify-content: center;
+  align-items: center;
 }
 
-.carousel-details-container {
-  padding-top: 30px;
-  padding-bottom: 30px;
+.products-details-container {
   text-align: center;
+  /* padding: 30px; */
 }
 
-.carousel-details-container h1 {
-  text-align: center;
+.products-details-container h5 {
+  font-style: italic;
+  /* padding: 10px; */
 }
 
-.carousel-details-container h4 {
-  text-align: center;
-  padding: 10px;
-  margin: 0% 10% 0%;
+.products-details-container p {
+  /* padding: 10px; */
 }
 
-.carousel-details-container p {
-  text-align: center;
-  padding: 10px;
-  margin: 0% 10% 0%;
-}
+/* MEDIA QUERY */
 
-/* Media Query */
+/* FOR NAV BAR */
 @media screen and (max-width: 1024px) {
   .nav-item img {
     display: none;
