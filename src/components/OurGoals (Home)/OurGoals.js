@@ -36,7 +36,7 @@ function OurGoals() {
           </div>
 
           <div className="col-12 goals-button">
-            <a class="btn btn-primary" href="/contact" role="button">
+            <a className="btn btn-primary" href="/contact" role="button">
               CONTACT US
             </a>
           </div>

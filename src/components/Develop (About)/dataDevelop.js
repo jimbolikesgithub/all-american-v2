@@ -4,18 +4,18 @@ import { v4 as uuidv4 } from 'uuid';
 const dataDevelop = [
   {
     id: uuidv4(),
-    title: 'Lorem ipsum',
-    subTitle: 'Lorem',
+    title: 'Our Building',
+    subTitle: 'Building',
   },
   {
     id: uuidv4(),
-    title: 'Bruh moment',
-    subTitle: 'Lorem',
+    title: 'Our Showroom',
+    subTitle: 'Showrooom',
   },
   {
     id: uuidv4(),
-    title: 'Hey quandale dingle here',
-    subTitle: 'Lorem',
+    title: 'Contact Us Today!',
+    subTitle: 'Sign',
   },
 ];
 

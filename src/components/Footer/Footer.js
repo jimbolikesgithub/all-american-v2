@@ -71,7 +71,7 @@ function Function() {
           </div>
         </div>
 
-        <div class="row align-items-center copyright-section">
+        <div className="row align-items-center copyright-section">
           <div className="col-md-7 col-lg-8">
             <p className="footer-copyright">
               Copyright 2022{' '}
