@@ -5,6 +5,7 @@
 *,*::after, *::before {
     margin: 0;
     box-sizing: border-box;
+
 }
 
 /* HTML (whole page) */
@@ -213,7 +214,7 @@ header {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 2px 20px;
+        padding: 4px 20px;
         border: 2px solid #fff;
         transition: 0.5s ease-in-out;
         border-radius: 50px;
@@ -236,3 +237,49 @@ header {
             transform: scale(1);
         }
     }
+
+@media screen and (max-width: 414px) {
+    .logo {
+        left: 10px;
+    }
+
+    .banner-content h1 {
+        font-size: 48px;
+    }
+
+    .nav-list {
+        width: 100%;
+        height: 88vh;
+    }
+    
+    .navbar li a {
+        position: relative;
+        right: 15px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+
+    .logo {
+        left: 10px;
+    }
+ 
+    .banner-content h1 {
+        font-size: 45px;
+    }
+
+    .header-home-btn {
+        margin-top: 20px;
+    }
+
+    .nav-list {
+        width: 100%;
+        height: 87vh;
+    }    
+
+    .navbar li a {
+        position: relative;
+        right: 15px;
+    }
+
+}

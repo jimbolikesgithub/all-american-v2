@@ -91,7 +91,7 @@ function Header() {
           <h1>& ALL AMERICAN.</h1>
         </div>
         <a href="/products" className="header-home-btn">
-          Check it out
+          Check us out
         </a>
       </div>
     </header>
