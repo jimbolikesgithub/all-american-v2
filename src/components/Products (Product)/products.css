@@ -15,7 +15,7 @@
   text-align: center;
 }
 
-/* PRODUCTS IMAGE + DETAILS */
+/* PRODUCTSs IMAGE + DETAILS */
 .products-container-all {
   background-color: var(--ltBackground);
 }
@@ -34,6 +34,7 @@
 .products-image-container img {
   height: 100%;
   width: 100%;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .products-details-container {

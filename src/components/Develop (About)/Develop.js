@@ -35,30 +35,30 @@ function Develop() {
 
   return (
     <section className="develop-section" data-aos="fade-up">
-      <div class="row">
-        <div className="col-lg develop-txt-col">
-          <div className="develop-txt-container">
-            <h1 className="discover-h1">DISCOVER US</h1>
-            <div className="develop-txt-container-2">
-              <p className="develop-txt">
-                All American Doors & Windows Inc is family owned and operated in
-                Simi Valley, California. We started this business because we
-                noticed the lack of professional construction suppliers in Simi
-                Valley and knew that we could do better. We understand
-                everything homeowners and contractors need to complete their
-                home improvement projects. We know the best suppliers in the
-                industry and where to find the highest quality materials. All
-                American Doors and Windows opened in January of 2004 to give
-                Simi Valley homeowners and contractors a source for top quality
-                vendors for doors, windows, moldings and door hardware.
-              </p>
+      <div className="grid lg:grid-cols-2 gap-5">
+        <div className="develop-txt-container">
+          <h1 className="discover-h1">DISCOVER US</h1>
+          <div className="develop-txt-container-2">
+            <p className="develop-txt">
+              All American Doors & Windows Inc is family owned and operated in
+              Simi Valley, California. We started this business because we
+              noticed the lack of professional construction suppliers in Simi
+              Valley and knew that we could do better. We understand everything
+              homeowners and contractors need to complete their home improvement
+              projects. We know the best suppliers in the industry and where to
+              find the highest quality materials. All American Doors and Windows
+              opened in January of 2004 to give Simi Valley homeowners and
+              contractors a source for top quality vendors for doors, windows,
+              moldings and door hardware.
+            </p>
+            <div className="discover-quote">
               <p className="develop-txt-2">"I love doors and windows."</p>
               <p className="develop-txt-3">- Pete DiNatale, Owner</p>
             </div>
           </div>
         </div>
 
-        <div className="col-lg develop-carousel-col">
+        <div className="develop-carousel-col">
           <div className="carousel-container">
             {dataDevelop.map((obj, index) => {
               return (
