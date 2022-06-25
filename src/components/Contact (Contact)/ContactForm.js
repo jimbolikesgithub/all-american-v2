@@ -52,11 +52,10 @@ function ContactForm() {
     }
 
     return (
-        <div className="lg:mt-48 lg:mr-48 pt-6 pb-8 bg-white shadow-xl rounded p-5">
+        <div className="">
             {status && renderAlert()}
             <form onSubmit={handleSubmit}>
-                <h3 className="text-gray-700 mb-7 text-xl font-semibold">Send message</h3>
-                <InputField value={values.fullName} handleChange={handleChange} label="Full Name" name="fullName" type="text" placeholder="John Doe" />
+                <InputField value={values.fullName} handleChange={handleChange} label="Name" name="fullName" type="text" placeholder="John Doe" />
                 <InputField value={values.email} handleChange={handleChange} label="Email" name="email" type="email" placeholder="john@example.com" />
                 <TextAreaField value={values.message} handleChange={handleChange} label="Message" name="message" />
                 <button type="submit" className="mt-4 bg-gray-900 text-gray-200 rounded hover:bg-gray-700 px-4 py-2 focus:outline-none">Send <ChevronRightIcon className="w-6 ml-2 float-right" /> </button>
