@@ -1,6 +1,13 @@
 import React, { useState } from 'react';
+import { useLocation } from 'react-router-dom';
 import './header.css';
 import logo from '../../assets/images/test-header.png';
+// Images for the header change per page
+import header1 from '../../assets/images/aad&w-bg-1.jpg';
+import header2 from '../../assets/images/aad&w-bg-2.jpg';
+import header3 from '../../assets/images/aad&w-bg-3.jpg';
+import header4 from '../../assets/images/aad&w-bg-4.jpg';
+import header5 from '../../assets/images/aad&w-bg-5.jpg';
 
 function Header() {
   // Menu Function
@@ -37,8 +44,70 @@ function Header() {
 
   window.addEventListener('scroll', changeBackground);
 
+  // For the header change per page
+  const { pathname } = useLocation();
+
+  const homeHeader = {
+    background: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),url(${header1})`,
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'center center',
+  };
+
+  const aboutHeader = {
+    background: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),url(${header2})`,
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'center center',
+  };
+
+  const productsHeader = {
+    background: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),url(${header3})`,
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'center center',
+  };
+
+  const vendorsHeader = {
+    background: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),url(${header4})`,
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'center center',
+  };
+
+  const contactHeader = {
+    background: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),url(${header5})`,
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'center center',
+  };
+
   return (
     <header>
+      {/* Banner */}
+      <div
+        className="banner-area"
+        style={
+          pathname === '/'
+            ? homeHeader
+            : aboutHeader | (pathname === '/about')
+            ? aboutHeader
+            : productsHeader | (pathname === '/products')
+            ? productsHeader
+            : vendorsHeader | (pathname === '/vendors')
+            ? vendorsHeader
+            : contactHeader
+        }
+      >
+        <div className="banner-content">
+          <h1 className="header-top-txt">LOCAL. TRUSTED.</h1>
+          <h1>& ALL AMERICAN.</h1>
+        </div>
+        <a href="/products" className="header-home-btn">
+          Check it out
+        </a>
+      </div>
+
       {/* Navigation */}
       <nav className={navbar ? 'navbar active' : 'navbar'}>
         <a href="/" className="logo-link">
@@ -83,17 +152,6 @@ function Header() {
           <div className="line3"></div>
         </div>
       </nav>
-
-      {/* Banner */}
-      <div className="banner-area">
-        <div className="banner-content">
-          <h1 className="header-top-txt">LOCAL. TRUSTED.</h1>
-          <h1>& ALL AMERICAN.</h1>
-        </div>
-        <a href="/products" className="header-home-btn">
-          Check it out
-        </a>
-      </div>
     </header>
   );
 }
