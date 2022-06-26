@@ -119,7 +119,7 @@ function Header() {
         </a>
 
         <ul className={active}>
-          <li className="nav-item">
+          <li className="nav-item top-nav-item">
             <a href="/" className="nav-link">
               Home
             </a>

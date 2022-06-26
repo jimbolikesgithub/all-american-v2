@@ -10,7 +10,7 @@ function Showroom() {
   }, []);
 
   return (
-    <section className="showroom-container" data-aos="fade-up">
+    <section className="showroom-container">
       <h1 className="showroom-heading">OUR SHOWROOM</h1>
       <div className="showroom-txt-container">
         <p className="showroom-txt">
