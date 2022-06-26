@@ -3,7 +3,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 * {
   /* All American Color Pallette */
   --yellow: #fed766;
