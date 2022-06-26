@@ -66,8 +66,12 @@ function Function() {
             <h5 className="text-uppercase mb-4 font-weight-bold footer-header">
               HOURS
             </h5>
-            <p className="text-white">Mon - Fri | 7AM - 5PM</p>
-            <p className="text-white">Sat | 9AM - 5PM</p>
+            <p className="text-white">Mon - Fri</p>
+            <p>______</p>
+            <p className="footer-time">7AM - 5PM</p>
+            <p className="text-white">Sat</p>
+            <p>______</p>
+            <p className="footer-time">9AM - 5PM</p>
           </div>
         </div>
 
