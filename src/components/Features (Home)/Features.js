@@ -24,32 +24,32 @@ function Features() {
         </div>
 
         <div className="row icons-container">
-          <div className="col-sm-6 col-xl-4">
+          <div className="col-sm-6 col-xl-4 icons-container-1">
             <img src={local} alt="local icon"></img>
             <p>LOCAL</p>
           </div>
 
-          <div className="col-sm-6 col-xl-4">
+          <div className="col-sm-6 col-xl-4 icons-container-1">
             <img src={service} alt="service icon"></img>
             <p>SERVICE</p>
           </div>
 
-          <div className="col-sm-6 col-xl-4">
+          <div className="col-sm-6 col-xl-4 icons-container-1">
             <img src={familyOwned} alt="family-owned icon"></img>
             <p>FAMILY-OWNED</p>
           </div>
 
-          <div className="col-sm-6 col-xl-4">
+          <div className="col-sm-6 col-xl-4 icons-container-1">
             <img src={highQuality} alt="high-quality icon"></img>
             <p>HIGH-QUALITY</p>
           </div>
 
-          <div className="col-sm-6 col-xl-4">
+          <div className="col-sm-6 col-xl-4 icons-container-1">
             <img src={customizable} alt="customizable icon"></img>
             <p>CUSTOMIZABLE</p>
           </div>
 
-          <div className="col-sm-6 col-xl-4">
+          <div className="col-sm-6 col-xl-4 icons-container-1">
             <img src={affordable} alt="affordable icon"></img>
             <p>AFFORDABLE</p>
           </div>
