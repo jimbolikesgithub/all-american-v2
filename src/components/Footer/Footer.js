@@ -79,12 +79,9 @@ function Function() {
                 &copy; All American Doors & Windows Inc
               </span>
             </p>
-            <a
-              href="https://www.flaticon.com/"
-              title="icons"
-              className="icon-link"
-            >
-              Icons - Flaticon
+            {/* Credits */}
+            <a href="/credit" className="credit-link">
+              Credits
             </a>
           </div>
 
