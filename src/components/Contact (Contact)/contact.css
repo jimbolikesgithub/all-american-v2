@@ -22,7 +22,7 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
     /* border: 2px solid #000; */
-    background: rgb(32, 33, 34);
+    background: rgb(104, 151, 199);
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     
