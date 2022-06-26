@@ -6,6 +6,10 @@ footer {
   color: #fed766;
 }
 
+.footer-time {
+  color: #fed766;
+}
+
 /* Copyright */
 .copyright-section {
   padding-top: 10px;
@@ -37,7 +41,11 @@ footer {
   color: #fcf7f8;
 }
 
-.icon-link {
-  color: white;
+.credit-link {
   text-decoration: none;
+  font-size: 10px;
+}
+
+.credit-link:visited {
+  color: white;
 }

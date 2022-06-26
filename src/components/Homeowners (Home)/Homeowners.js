@@ -5,6 +5,7 @@ import './homeowners.css';
 import pic1 from '../../assets/images/homeownersPic1.jpg';
 import pic2 from '../../assets/images/homeownersPic2.jpg';
 import pic3 from '../../assets/images/homeownersPic3.png';
+import pic4 from '../../assets/images/aad&w-bg-8.jpg';
 
 function Homeowners() {
   useEffect(() => {
@@ -37,7 +38,7 @@ function Homeowners() {
           </div>
 
           <div className="col-lg-6 col-xl-6 d-none d-lg-block home-pic">
-            <img src={pic1} alt="person working on door"></img>
+            <img src={pic4} alt="person working on door"></img>
           </div>
         </div>
 

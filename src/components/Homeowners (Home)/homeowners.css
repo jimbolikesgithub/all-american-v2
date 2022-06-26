@@ -21,6 +21,9 @@
 .home-pic {
   display: flex;
   justify-content: center;
+  position: relative;
+  /* left: 10%; */
+  padding-left: 17%;
 }
 
 .home-pic img {
@@ -40,4 +43,16 @@
   height: 400px;
   width: 400px;
   filter: brightness(70%);
+}
+
+/* @media screen and (max-width: 1199px) {
+  .home-pic {
+    padding-left: 0;
+  }
+} */
+
+@media screen and (max-width: 1399px) {
+  .home-pic {
+    padding-left: 10%;
+  }
 }
