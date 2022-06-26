@@ -21,6 +21,8 @@
 .home-pic {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .home-pic img {

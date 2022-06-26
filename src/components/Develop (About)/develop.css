@@ -134,6 +134,34 @@
   width: 25px;
   height: 25px;
   pointer-events: none;
+} 
+
+@media screen and (max-width: 1023px) {
+
+  .carousel-container {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 546px) {
+  .carousel-container {
+    height: 400px;
+  }
+}
+
+/* iPhone XR */
+@media screen and (max-width: 414px) {
+  .carousel-container {
+    height: 200px;
+  }
+}
+
+/* iPhone 12 Pro && iPhone SE && Basically everything smaller than 375 or around such */
+@media screen and (max-width: 375px) {
+  .carousel-container {
+    height: 300px;
+  }
 }
 
 /* Carousel Column */
