@@ -35,7 +35,7 @@ function Develop() {
 
   return (
     <section className="develop-section" data-aos="fade-up">
-      <div className="grid lg:grid-cols-2 gap-5">
+      <div className="grid lg:grid-cols-2">
         <div className="develop-txt-container">
           <h1 className="discover-h1">DISCOVER US</h1>
           <div className="develop-txt-container-2">

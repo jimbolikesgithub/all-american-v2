@@ -136,6 +136,26 @@
   pointer-events: none;
 }
 
+/* Media Query */
+@media screen and (max-width: 1023px) {
+  .carousel-container {
+    /* max-width: 700px; */
+    height: 500px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .carousel-container {
+    height: 300px;
+  }
+}
+
 /* Carousel Column */
 /* @media screen and (max-width: 992px) {
   .carousel-container {
