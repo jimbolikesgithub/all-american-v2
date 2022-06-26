@@ -13,7 +13,7 @@ function ProductsNav({ currentSection, handleSectionChange }) {
     <section>
       <div className="product-icon-container">
         <ul className="nav nav-tabs justify-content-center">
-          <li className="nav-item">
+          <li className="nav-item product-header">
             <a
               href="#Doors"
               onClick={() => handleSectionChange('Doors')}
@@ -26,7 +26,7 @@ function ProductsNav({ currentSection, handleSectionChange }) {
             </a>
           </li>
 
-          <li className="nav-item">
+          <li className="nav-item product-header">
             <a
               href="#Windows"
               onClick={() => handleSectionChange('Windows')}
@@ -39,7 +39,7 @@ function ProductsNav({ currentSection, handleSectionChange }) {
             </a>
           </li>
 
-          <li className="nav-item">
+          <li className="nav-item product-header">
             <a
               href="#Molding"
               onClick={() => handleSectionChange('Molding')}
@@ -52,7 +52,7 @@ function ProductsNav({ currentSection, handleSectionChange }) {
             </a>
           </li>
 
-          <li className="nav-item">
+          <li className="nav-item product-header">
             <a
               href="#Hardware"
               onClick={() => handleSectionChange('Hardware')}
@@ -65,7 +65,7 @@ function ProductsNav({ currentSection, handleSectionChange }) {
             </a>
           </li>
 
-          <li className="nav-item">
+          <li className="nav-item product-header">
             <a
               href="#Miscellaneous"
               onClick={() => handleSectionChange('Miscellaneous')}
@@ -76,7 +76,7 @@ function ProductsNav({ currentSection, handleSectionChange }) {
               }
             >
               <img src={productsIcon5} alt="product icon 1"></img>
-              <h5>MISCELLANEOUS</h5>
+              <h5>MORE</h5>
             </a>
           </li>
         </ul>
