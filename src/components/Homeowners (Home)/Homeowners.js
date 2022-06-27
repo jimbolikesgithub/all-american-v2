@@ -5,7 +5,7 @@ import './homeowners.css';
 import pic1 from '../../assets/images/homeownersPic1.jpg';
 import pic2 from '../../assets/images/homeownersPic2.jpg';
 import pic3 from '../../assets/images/homeownersPic3.png';
-import pic4 from '../../assets/images/aad&w-bg-8.jpg'
+import pic4 from '../../assets/images/aad&w-bg-8.jpg';
 
 function Homeowners() {
   useEffect(() => {
