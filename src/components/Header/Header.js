@@ -8,8 +8,7 @@ import header2 from '../../assets/images/aad&w-bg-2.jpg';
 import header3 from '../../assets/images/aad&w-bg-3.jpg';
 import header4 from '../../assets/images/aad&w-bg-4.jpg';
 import header5 from '../../assets/images/aad&w-bg-5.jpg';
-import header6 from '../../assets/images/aad&w-bg-6.jpg';
-import header7 from '../../assets/images/aad&w-bg-7.jpg';
+import header6 from '../../assets/images/aad&w-bg-7.jpg';
 
 function Header() {
   // Menu Function
@@ -63,7 +62,7 @@ function Header() {
     backgroundPosition: 'center center',
   };
 
-  const productsHeader = {
+  const otherHeader = {
     background: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),url(${header1})`,
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
@@ -84,15 +83,8 @@ function Header() {
     backgroundPosition: 'center center',
   };
 
-  const otherHeader = {
+  const productsHeader = {
     background: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),url(${header6})`,
-    backgroundSize: 'cover',
-    backgroundRepeat: 'no-repeat',
-    backgroundPosition: 'center center',
-  };
-
-  const other1Header = {
-    background: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),url(${header7})`,
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center center',
@@ -115,7 +107,7 @@ function Header() {
             : contactHeader | (pathname === '/contact')
             ? contactHeader
             : otherHeader | (pathname === '/credit')
-            ? other1Header
+            ? otherHeader
             : homeHeader
         }
       >
