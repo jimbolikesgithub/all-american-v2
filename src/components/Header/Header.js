@@ -1,14 +1,15 @@
 import React, { useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import './header.css';
-import logo from '../../assets/images/test-header.png';
+import logo from '../../assets/images/logo-header.png';
+
 // Images for the header change per page
 import header1 from '../../assets/images/aad&w-bg-1.jpg';
 import header2 from '../../assets/images/aad&w-bg-2.jpg';
 import header3 from '../../assets/images/aad&w-bg-3.jpg';
 import header4 from '../../assets/images/aad&w-bg-4.jpg';
 import header5 from '../../assets/images/aad&w-bg-5.jpg';
-import header6 from '../../assets/images/aad&w-bg-7.jpg';
+import header6 from '../../assets/images/aad&w-bg-6.jpg';
 
 function Header() {
   // Menu Function

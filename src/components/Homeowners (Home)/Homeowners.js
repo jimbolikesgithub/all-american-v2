@@ -2,16 +2,14 @@ import React, { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import './homeowners.css';
-import pic1 from '../../assets/images/aad&w-bg-8.jpg';
-import pic2 from '../../assets/images/homeownersPic2.jpg';
+import pic1 from '../../assets/images/homeowners-pic-1.jpg';
+import pic2 from '../../assets/images/homeowners-pic-2.jpg';
 
 function Homeowners() {
   useEffect(() => {
     // 2 second animation completeness
     Aos.init({ duration: 2000 });
   }, []);
-
-  // make the bubbles disappear at a certain size / media query -__-
 
   return (
     <section className="home-contract-container" data-aos="fade-right">

@@ -85,7 +85,7 @@ function Function() {
             </p>
             {/* Credits */}
             <a href="/credit" className="credit-link">
-              Icons - Flaticon
+              Icons-Flaticon
             </a>
           </div>
 
