@@ -21,7 +21,7 @@ function Molding() {
 
         <div className="products-details-container">
           <h1>MOLDING</h1>
-          <h5>
+          <h5 className="product-header-txt">
             "Replacing a piece of molding? Decided to decorate your entire home?
             We are your local source, friendly to the basics for the
             contractors, and the MDF's for the decorators."

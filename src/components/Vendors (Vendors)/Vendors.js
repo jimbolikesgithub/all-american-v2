@@ -13,10 +13,11 @@ function Vendors() {
   return (
     <section data-aos="fade-down">
       <div className="vendors-container">
-        <h3>
+        <h1>VENDORS</h1>
+        <p className="vendors-text">
           We carry the most popular brands, so you can be sure you’ll have the
           highest quality at the best prices, including:
-        </h3>
+        </p>
         <img src={vendorsPic} alt="vendor logos"></img>
       </div>
     </section>

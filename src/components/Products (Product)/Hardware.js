@@ -17,7 +17,7 @@ function Hardware() {
       <div className="products-container grid lg:grid-cols-2 gap-10">
         <div className="products-details-container">
           <h1>HARDWARE</h1>
-          <h5>
+          <h5 className="product-header-txt">
             "Missing some necessary handles for your doors? How about some locks
             for your security? If so, be sure to check out some of our best
             recommended hardware."

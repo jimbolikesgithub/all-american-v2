@@ -17,7 +17,7 @@ function Windows() {
       <div className="products-container grid lg:grid-cols-2 gap-10">
         <div className="products-details-container">
           <h1>WINDOWS</h1>
-          <h5>
+          <h5 className="product-header-txt">
             "Whether it be energy efficient windows, a skylight for your newly
             remodeled kitchen, or a bay window to overlook your garden, we are
             certain to have it all, prepared just for you."
