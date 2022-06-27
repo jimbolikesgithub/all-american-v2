@@ -10,7 +10,6 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  /* background-color: aqua; */
 }
 
 .discover-h1 {
@@ -29,9 +28,6 @@
 }
 
 /* Carousel */
-.develop-carousel-col {
-  /* background-color: blue; */
-}
 
 .carousel-container {
   /* max-width: 700px; */
@@ -139,7 +135,6 @@
 /* Media Query */
 @media screen and (max-width: 1023px) {
   .carousel-container {
-    /* max-width: 700px; */
     height: 500px;
     margin-top: 0px;
     margin-bottom: 0px;

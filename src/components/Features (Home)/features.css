@@ -1,10 +1,10 @@
 .features-container-all {
   background-color: var(--ltBackground);
+  padding: 30px;
 }
 
 .features-container {
   text-align: center;
-  padding: 30px;
 }
 
 .icons-container {

@@ -2,12 +2,14 @@ import React, { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import './features.css';
-import local from '../../assets/images/local.png';
-import service from '../../assets/images/service.png';
-import familyOwned from '../../assets/images/familyOwned.png';
-import highQuality from '../../assets/images/highQuality.png';
-import customizable from '../../assets/images/customizable.png';
-import affordable from '../../assets/images/affordable.png';
+
+// Images for features icons sections
+import local from '../../assets/images/features-icon-local.png';
+import service from '../../assets/images/features-icon-service.png';
+import familyOwned from '../../assets/images/features-icon-familyOwned.png';
+import highQuality from '../../assets/images/features-icon-highQuality.png';
+import customizable from '../../assets/images/features-icon-customizable.png';
+import affordable from '../../assets/images/features-icon-affordable.png';
 
 function Features() {
   useEffect(() => {

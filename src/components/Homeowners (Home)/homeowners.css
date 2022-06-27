@@ -31,6 +31,7 @@
   height: 400px;
   width: 400px;
   filter: brightness(70%);
+  object-fit: cover;
 }
 
 .contract-pic {
@@ -43,8 +44,10 @@
   height: 400px;
   width: 400px;
   filter: brightness(70%);
+  object-fit: cover;
 }
 
+/* MEDIA QUERY */
 @media screen and (max-width: 1399px) {
   .home-pic {
     padding-left: 10%;
@@ -59,6 +62,4 @@
   .contract-pic img {
     display: none;
   }
-
-  
 }

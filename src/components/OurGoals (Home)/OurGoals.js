@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import './ourGoals.css';
-import worker from '../../assets/images/ourGoalsWorker.png';
+import worker from '../../assets/images/our-goals-worker.png';
 
 function OurGoals() {
   useEffect(() => {
