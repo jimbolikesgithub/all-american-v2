@@ -5,10 +5,11 @@ const Credit = () => {
     <section>
       <div style={{ textAlign: 'center', padding: '30px' }}>
         <h1>ATTRIBUTES</h1>
-        <p>All icons used to help create this website were found on Flaticon</p>
+        <p className="credit-text">All icons used to help create this website were found on Flaticon</p>
       </div>
 
-      <div
+      <div 
+        className="credit-container"
         style={{
           textAlign: 'center',
           display: 'flex',
