@@ -27,3 +27,18 @@
 p {
   font-family: 'Jost', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
+
+/* Credit */
+.credit-container a {
+  color: var(--dkBackground);
+  transition: 0.4s ease-in;
+}
+
+.credit-container a:hover {
+  color: #fed766;
+  transition: 0.2s ease-in;
+}
+
+.credit-text {
+  margin-top: 20px;
+}

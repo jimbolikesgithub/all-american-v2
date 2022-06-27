@@ -273,7 +273,7 @@ header {
 }
 
 /* iPgone 12 Pro (NON-ROTATED) */
-@media screen and (max-width: 390px) {
+@media screen and (max-device-width: 390px) {
   .logo {
     left: 10px;
   }
@@ -314,21 +314,21 @@ header {
 }
 
 /* Media Query for iPhone 12 Pro - Landscape */
-@media screen and (max-width: 844px), screen and (max-height: 390px) {
+@media screen and (max-device-width: 844px), screen and (max-device-height: 390px) {
   .banner-content {
     margin-top: 70px;
   }
 }
 
 /* Media Query for iPhone XR - Landscape */
-@media screen and (max-width: 896px), screen and (max-height: 414px) {
+@media screen and (max-device-width: 896px), screen and (max-device-height: 414px) {
   .banner-content {
     margin-top: 70px;
   }
 }
 
 /* Media Query for Samsung Galaxy S8+ - Landscape */
-@media screen and (max-width: 740px), screen and (max-height: 360px) {
+@media screen and (max-device-width: 740px), screen and (max-device-height: 360px) {
   .banner-content {
     margin-top: 100px;
   }
