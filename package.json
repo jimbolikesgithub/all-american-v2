@@ -1,5 +1,6 @@
 {
   "name": "all-american-v2",
+  "homepage": "http://allamericandoorsandwindowsinc.com",
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:3001/",
