@@ -45,14 +45,20 @@
   filter: brightness(70%);
 }
 
-/* @media screen and (max-width: 1199px) {
-  .home-pic {
-    padding-left: 0;
-  }
-} */
-
 @media screen and (max-width: 1399px) {
   .home-pic {
     padding-left: 10%;
   }
+}
+
+@media screen and (max-width: 1199px) {
+  .home-pic img {
+    display: none;
+  }
+
+  .contract-pic img {
+    display: none;
+  }
+
+  
 }

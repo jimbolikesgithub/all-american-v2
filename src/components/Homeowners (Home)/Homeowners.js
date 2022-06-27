@@ -2,10 +2,8 @@ import React, { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import './homeowners.css';
-import pic1 from '../../assets/images/homeownersPic1.jpg';
+import pic1 from '../../assets/images/aad&w-bg-8.jpg';
 import pic2 from '../../assets/images/homeownersPic2.jpg';
-import pic3 from '../../assets/images/homeownersPic3.png';
-import pic4 from '../../assets/images/aad&w-bg-8.jpg';
 
 function Homeowners() {
   useEffect(() => {
@@ -19,7 +17,7 @@ function Homeowners() {
     <section className="home-contract-container" data-aos="fade-right">
       <div className="container">
         <div className="row home-contract-section">
-          <div className="col-lg-6 col-xl-6 home-section">
+          <div className="col-lg-12 col-xl-6 home-section">
             <h1>HOMEOWNERS</h1>
             <p>
               Whether you are a do-it-yourself type homeowner, or you prefer to
@@ -38,7 +36,7 @@ function Homeowners() {
           </div>
 
           <div className="col-lg-6 col-xl-6 d-none d-lg-block home-pic">
-            <img src={pic4} alt="person working on door"></img>
+            <img src={pic1} alt="person working on door"></img>
           </div>
         </div>
 
@@ -47,7 +45,7 @@ function Homeowners() {
             <img src={pic2} alt="office"></img>
           </div>
 
-          <div className="col-lg-6 col-xl-6 contract-section">
+          <div className="col-lg-12 col-xl-6 contract-section">
             <h1>CONTRACTORS</h1>
             <p>
               As a contractor, you can be certain that you are working with the
