@@ -21,10 +21,8 @@ function Miscellaneous() {
 
         <div className="products-details-container">
           <h1>MISCELLANEOUS</h1>
-          <h5>
-            "Replacing a piece of molding? Decided to decorate your entire home?
-            We are your local source, friendly to the basics for the
-            contractors, and the MDF's for the decorators."
+          <h5 className="product-header-txt">
+            "All the little (and most important) things which are often overlooked are made readily available with us! Didn't think you needed a new mail slot, did you?"
           </h5>
           <p>
             Stops & Catches · Bumpers · Hinges (Knuckle, Spring, Cabinet) ·

@@ -67,11 +67,11 @@ function Function() {
               HOURS
             </h5>
             <p className="text-white">Mon - Fri</p>
-            <p>______</p>
             <p className="footer-time">7AM - 5PM</p>
-            <p className="text-white">Sat</p>
             <p>______</p>
+            <p className="text-white">Sat</p>
             <p className="footer-time">9AM - 5PM</p>
+            <p>______</p>
           </div>
         </div>
 

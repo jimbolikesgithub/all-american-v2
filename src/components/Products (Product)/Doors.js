@@ -21,7 +21,7 @@ function Doors() {
 
         <div className="products-details-container">
           <h1>DOORS</h1>
-          <h5>
+          <h5 className="product-header-txt">
             "Whether you need a new screen door, grand entry door, or french
             doors that opens onto your patio, All American Doors & Windows has
             everything you’re looking for in many different materials."

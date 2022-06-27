@@ -39,6 +39,12 @@ footer {
 
 .footer-icon {
   color: #fcf7f8;
+  transition: 0.4s ease-in;
+}
+
+.footer-icon:hover {
+  color: #fed766;
+  transition: 0.2s ease-in;
 }
 
 .credit-link {
@@ -48,4 +54,22 @@ footer {
 
 .credit-link:visited {
   color: white;
+}
+
+.credit-link {
+  text-decoration: none;
+  color: #fcf7f8;
+  transition: 0.4s ease-in;
+}
+
+.credit-link:hover {
+  color: #fed766;
+  transition: 0.2s ease-in;
+}
+
+@media screen and (max-width: 767px) {
+  .credit-link {
+    position: relative;
+    bottom: 10px;
+  }
 }

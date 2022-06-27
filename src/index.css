@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;1,200&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -20,4 +22,8 @@
   /* All American Font */
   font-family: 'Hammersmith One', Impact, Haettenschweiler, 'Arial Narrow Bold',
     sans-serif;
+}
+
+p {
+  font-family: 'Jost', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }

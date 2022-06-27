@@ -19,6 +19,11 @@
   padding-top: 15%;
 }
 
+.product-header-txt {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 23px;
+}
+
 /* PRODUCTSs IMAGE + DETAILS */
 .products-container-all {
   background-color: var(--ltBackground);
