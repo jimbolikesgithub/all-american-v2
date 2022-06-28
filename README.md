@@ -37,5 +37,5 @@ A top-down, redesigned and rebuilt version of a home refurbishing webste, All Am
 
 ## Deployment
 * [Github Repository](https://github.com/jimbolikesgithub/all-american-v2)
-* [GoDaddy](https://github.com/jimbolikesgithub/all-american-v2)
+* [GoDaddy](https://www.allamericandoorsandwindowsinc.com/)
 
