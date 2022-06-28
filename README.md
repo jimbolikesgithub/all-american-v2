@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
 ## Description  
-A top-down, redesigned and rebuilt version of a home refurbishing webste, All American Doors & Windows Inc. Located in Simi Valley, CA, it is described as a "local source for quality doors, windows, moldings, and a wide variety of other materials." 
+A top-down, redesigned and rebuilt version of a home refurbishing webste---<i>All American Doors & Windows Inc</i>. Located in Simi Valley, CA, it is described as a "local source for quality doors, windows, moldings, and a wide variety of other materials." 
 <br />
 <br />
 This version was created with a responsive UX/UI in mind, allowing for enhanced user experience on most-all devices. Unlike the previous rendition, v2 was built with react, utilizing the react library as well as its much of its native feaures, such as components. And in conjunction with technologies such as tailwind and bootstrap, it was easier to separate our concerns and fully generate an attractive, modern UI.
