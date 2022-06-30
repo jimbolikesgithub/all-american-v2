@@ -29,6 +29,7 @@ function Function() {
               All American Doors & Windows Inc is family owned and operated in
               Simi Valley, California.{' '}
             </p>
+            <p className="footer-time">1 (805) - 526 - 2080</p>
           </div>
 
           <div className="col-md-2 col-lg-3 col-xl-3 mx-auto mt-3">
@@ -70,7 +71,7 @@ function Function() {
             <p className="footer-time">7AM - 5PM</p>
             <p>______</p>
             <p className="text-white">Sat</p>
-            <p className="footer-time">9AM - 5PM</p>
+            <p className="footer-time">9AM - 3PM</p>
             <p>______</p>
           </div>
         </div>
