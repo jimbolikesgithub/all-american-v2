@@ -7,6 +7,7 @@ function Contact() {
     <section className="contact-body">
       <h1 className="contact-h1">CONTACT US</h1>
       <p className="contact-number">1 (805) - 526 - 2080</p>
+      <p className="contact-number">185 E Easy St G, Simi Valley, CA 93065</p>
       <div className="contact-container">
         <div className="contact-form-container">
           <ContactForm />

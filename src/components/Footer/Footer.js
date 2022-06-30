@@ -30,6 +30,9 @@ function Function() {
               Simi Valley, California.{' '}
             </p>
             <p className="footer-time">1 (805) - 526 - 2080</p>
+            <p className="footer-time">
+              185 E Easy St G, Simi Valley, CA 93065
+            </p>
           </div>
 
           <div className="col-md-2 col-lg-3 col-xl-3 mx-auto mt-3">
