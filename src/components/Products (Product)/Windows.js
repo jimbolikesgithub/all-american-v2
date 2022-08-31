@@ -4,7 +4,7 @@ import 'aos/dist/aos.css';
 import './products.css';
 
 // Image for Windows Section
-import productsWindows1 from '../../assets/images/products-windows-1.jpg';
+import productsWindows1 from '../../assets/images/products-windows-1.png';
 
 function Windows() {
   useEffect(() => {
