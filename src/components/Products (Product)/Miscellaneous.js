@@ -4,7 +4,7 @@ import 'aos/dist/aos.css';
 import './products.css';
 
 // Image for Miscellaneous Section
-import productsMiscellaneous1 from '../../assets/images/products-miscellaneous-1.jpg';
+import productsMiscellaneous1 from '../../assets/images/products-miscellaneous-1.png';
 
 function Miscellaneous() {
   useEffect(() => {
@@ -22,7 +22,9 @@ function Miscellaneous() {
         <div className="products-details-container">
           <h1>MISCELLANEOUS</h1>
           <h5 className="product-header-txt">
-            "All the little (and most important) things which are often overlooked are made readily available with us! Didn't think you needed a new mail slot, did you?"
+            "All the little (and most important) things which are often
+            overlooked are made readily available with us! Didn't think you
+            needed a new mail slot, did you?"
           </h5>
           <p>
             Stops & Catches · Bumpers · Hinges (Knuckle, Spring, Cabinet) ·

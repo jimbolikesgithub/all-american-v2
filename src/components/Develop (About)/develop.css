@@ -30,7 +30,6 @@
 /* Carousel */
 
 .carousel-container {
-  /* max-width: 700px; */
   height: 500px;
   margin-top: 100px;
   margin-bottom: 100px;
@@ -150,64 +149,3 @@
     height: 300px;
   }
 }
-
-/* Carousel Column */
-/* @media screen and (max-width: 992px) {
-  .carousel-container {
-    margin-left: auto;
-    margin-right: auto;
-    width: 40em;
-  }
-
-  .develop-txt-container {
-    position: relative;
-    left: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40em;
-  }
-} */
-
-/* @media screen and (max-width: 705px) {
-  .carousel-container {
-    width: 100%;
-    margin-left: 0%;
-    margin-right: 0%;
-  }
-
-  .develop-txt-container {
-    width: 100%;
-    margin-left: 0px;
-    margin-right: 0px;
-    border: none;
-    padding: 15px;
-    margin-top: 10px;
-  }
-
-  .develop-txt-container-2 {
-    border: none;
-    width: 100%;
-    margin-left: none;
-    margin-right: none;
-    padding: 15px 20px 0 20px;
-  }
-
-  .discover-h1 {
-    text-align: center;
-  }
-
-  .develop-txt {
-    display: contents;
-    font-size: 18px;
-  }
-
-  .carousel-container {
-    max-width: 700px;
-    height: 500px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    position: relative;
-    overflow: hidden;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  }
-} */

@@ -2,8 +2,8 @@ import React, { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import './homeowners.css';
-import pic1 from '../../assets/images/homeowners-pic-1.jpg';
-import pic2 from '../../assets/images/homeowners-pic-2.jpg';
+import pic1 from '../../assets/images/homeowners-pic-1.png';
+import pic2 from '../../assets/images/homeowners-pic-2.png';
 
 function Homeowners() {
   useEffect(() => {

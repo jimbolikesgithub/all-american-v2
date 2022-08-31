@@ -335,7 +335,6 @@ header {
 /* Media Query for Samsung Galaxy Flip or smaller phones - Landscape */
 @media screen and (max-device-width: 769px),
   screen and (max-device-height: 375px) {
-
 }
 
 /* iPhone SE (NON-ROTATED) */

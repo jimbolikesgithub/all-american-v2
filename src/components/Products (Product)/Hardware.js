@@ -4,7 +4,7 @@ import 'aos/dist/aos.css';
 import './products.css';
 
 // Image for Hardware Section
-import productsHardware1 from '../../assets/images/products-hardware-1.jpg';
+import productsHardware1 from '../../assets/images/products-hardware-1.png';
 
 function Hardware() {
   useEffect(() => {
