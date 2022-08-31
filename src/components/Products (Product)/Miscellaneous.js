@@ -4,7 +4,7 @@ import 'aos/dist/aos.css';
 import './products.css';
 
 // Image for Miscellaneous Section
-import productsMiscellaneous1 from '../../assets/images/products-miscellaneous-1.png';
+import productsMiscellaneous1 from '../../assets/images/products-miscellaneous-1.avif';
 
 function Miscellaneous() {
   useEffect(() => {

@@ -71,7 +71,7 @@ function Develop() {
                   <img
                     src={
                       process.env.PUBLIC_URL +
-                      `/Photos/developImg/img${index + 1}.png`
+                      `/Photos/developImg/img${index + 1}.avif`
                     }
                     className="develop-img"
                     alt="carousel images showing all american stuff"
