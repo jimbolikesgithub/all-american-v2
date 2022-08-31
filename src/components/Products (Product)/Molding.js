@@ -4,7 +4,7 @@ import 'aos/dist/aos.css';
 import './products.css';
 
 // Image for Molding Section
-import productsMolding1 from '../../assets/images/products-molding-1.png';
+import productsMolding1 from '../../assets/images/products-molding-1.avif';
 
 function Molding() {
   useEffect(() => {

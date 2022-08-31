@@ -4,12 +4,12 @@ import './header.css';
 import logo from '../../assets/images/logo-header.png';
 
 // Images for the header change per page
-import header1 from '../../assets/images/aad&w-bg-1.png';
-import header2 from '../../assets/images/aad&w-bg-2.png';
-import header3 from '../../assets/images/aad&w-bg-3.png';
-import header4 from '../../assets/images/aad&w-bg-4.png';
-import header5 from '../../assets/images/aad&w-bg-5.png';
-import header6 from '../../assets/images/aad&w-bg-6.png';
+import header1 from '../../assets/images/aad&w-bg-1.avif';
+import header2 from '../../assets/images/aad&w-bg-2.avif';
+import header3 from '../../assets/images/aad&w-bg-3.avif';
+import header4 from '../../assets/images/aad&w-bg-4.avif';
+import header5 from '../../assets/images/aad&w-bg-5.avif';
+import header6 from '../../assets/images/aad&w-bg-6.avif';
 
 function Header() {
   // Menu Function

@@ -4,7 +4,7 @@ import 'aos/dist/aos.css';
 import './products.css';
 
 // Image for Doors Section
-import productsDoors1 from '../../assets/images/products-doors-1.png';
+import productsDoors1 from '../../assets/images/products-doors-1.avif';
 
 function Doors() {
   useEffect(() => {
