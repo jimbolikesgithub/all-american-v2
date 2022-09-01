@@ -22,7 +22,12 @@ function Showroom() {
         <p className="showroom-txt">Simi Valley, CA 93065</p>
       </div>
       <div className="col-12 goals-button showroom-button">
-        <a className="btn btn-primary" href="/contact" role="button">
+        <a
+          className="btn btn-primary"
+          href="/contact"
+          role="button"
+          aria-label="Link to go Contact"
+        >
           CONTACT US
         </a>
       </div>

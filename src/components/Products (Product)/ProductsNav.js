@@ -16,6 +16,7 @@ function ProductsNav({ currentSection, handleSectionChange }) {
           <li className="nav-item product-header">
             <a
               href="#Doors"
+              aria-label="Link to go Doors"
               onClick={() => handleSectionChange('Doors')}
               className={
                 currentSection === 'Doors' ? 'nav-link active' : 'nav-link'
@@ -29,6 +30,7 @@ function ProductsNav({ currentSection, handleSectionChange }) {
           <li className="nav-item product-header">
             <a
               href="#Windows"
+              aria-label="Link to go Windows"
               onClick={() => handleSectionChange('Windows')}
               className={
                 currentSection === 'Windows' ? 'nav-link active' : 'nav-link'
@@ -42,6 +44,7 @@ function ProductsNav({ currentSection, handleSectionChange }) {
           <li className="nav-item product-header">
             <a
               href="#Molding"
+              aria-label="Link to go Molding"
               onClick={() => handleSectionChange('Molding')}
               className={
                 currentSection === 'Molding' ? 'nav-link active' : 'nav-link'
@@ -55,6 +58,7 @@ function ProductsNav({ currentSection, handleSectionChange }) {
           <li className="nav-item product-header">
             <a
               href="#Hardware"
+              aria-label="Link to go Hardware"
               onClick={() => handleSectionChange('Hardware')}
               className={
                 currentSection === 'Hardware' ? 'nav-link active' : 'nav-link'
@@ -68,6 +72,7 @@ function ProductsNav({ currentSection, handleSectionChange }) {
           <li className="nav-item product-header">
             <a
               href="#Miscellaneous"
+              aria-label="Link to go Miscellaneous"
               onClick={() => handleSectionChange('Miscellaneous')}
               className={
                 currentSection === 'Miscellaneous'
