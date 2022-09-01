@@ -36,7 +36,12 @@ function OurGoals() {
           </div>
 
           <div className="col-12 goals-button">
-            <a className="btn btn-primary" href="/contact" role="button">
+            <a
+              className="btn btn-primary"
+              href="/contact"
+              role="button"
+              aria-label="Link to go Contact"
+            >
               CONTACT US
             </a>
           </div>

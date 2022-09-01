@@ -116,15 +116,20 @@ function Header() {
           <h1 className="header-top-txt">LOCAL. TRUSTED.</h1>
           <h1>& ALL AMERICAN.</h1>
         </div>
-        <a href="/products" className="header-home-btn">
+        <a
+          href="/products"
+          className="header-home-btn"
+          aria-label="Link to go Products"
+        >
           Check it out
         </a>
       </div>
 
       {/* Navigation */}
       <nav className={navbar ? 'navbar active' : 'navbar'}>
-        <a href="/" className="logo-link">
+        <a href="/" className="logo-link" aria-label="Link to go Home">
           <img
+            rel="preload"
             src={logo}
             className="logo"
             alt="All American Doors & Window logo"
@@ -133,27 +138,39 @@ function Header() {
 
         <ul className={active}>
           <li className="nav-item top-nav-item">
-            <a href="/" className="nav-link">
+            <a href="/" className="nav-link" aria-label="Link to go Home">
               Home
             </a>
           </li>
           <li className="nav-item">
-            <a href="/about" className="nav-link">
+            <a href="/about" className="nav-link" aria-label="Link to go About">
               About
             </a>
           </li>
           <li className="nav-item">
-            <a href="/products" className="nav-link">
+            <a
+              href="/products"
+              className="nav-link"
+              aria-label="Link to go Products"
+            >
               Products
             </a>
           </li>
           <li className="nav-item">
-            <a href="/vendors" className="nav-link">
+            <a
+              href="/vendors"
+              className="nav-link"
+              aria-label="Link to go Vendors"
+            >
               Vendors
             </a>
           </li>
           <li className="nav-item">
-            <a href="/contact" className="nav-link">
+            <a
+              href="/contact"
+              className="nav-link"
+              aria-label="Link to go Contact"
+            >
               Contact
             </a>
           </li>
