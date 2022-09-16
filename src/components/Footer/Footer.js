@@ -153,6 +153,11 @@ function Function() {
               </li>
             </ul>
           </div>
+          <div className="col-md-7 col-lg-8">
+            <p className="footer-copyright text-xs">
+                Website built by the <a className='cursor-pointer' href="https://the-jl-group-portfolio.vercel.app/" target="_blank" rel="noreferrer">JL Developers</a>
+            </p>
+          </div>
         </div>
       </div>
     </footer>
